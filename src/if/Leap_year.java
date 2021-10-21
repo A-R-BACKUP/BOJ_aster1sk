@@ -5,17 +5,12 @@ public class Leap_year {
         int l;
         Scanner x = new Scanner(System.in);
         l = x.nextInt();
-        if (l >= 1 || l <= 4000){
-            if (l % 4 == 0 && l % 100 == 0 || l % 400 == 0){
+        if (l >= 1 || l <= 4000) {
+            if (l % 4 == 0 && l % 100 != 0 || l % 400 == 0) {
                 System.out.println("1");
-            }
-            else{
+            } else {
                 System.out.println("0");
             }
         }
-        else{
-            return;
-        }
-
     }
 }
