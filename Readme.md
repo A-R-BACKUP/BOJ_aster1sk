@@ -1,2 +1,2 @@
-## BOJ_aster1sk_JAVA
+## BOJ_aster1sk
 
